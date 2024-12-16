@@ -60,7 +60,7 @@ const ContactForm = () => {
             className="form-control"
             value={formData.from_name}
             onChange={handleChange}
-            placeholder="Bendik Bendiksen"
+            placeholder="Odd Even Fossan"
             required
           />
         </div>
@@ -74,13 +74,13 @@ const ContactForm = () => {
             className="form-control"
             value={formData.reply_to}
             onChange={handleChange}
-            placeholder="bend@gmail.com"
+            placeholder="oef@gmail.com"
             required
           />
         </div>
 
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">Message 📩</label>
+          <label htmlFor="message" className="form-label">Message ✉️</label>
           <textarea
             id="message"
             name="message"
@@ -88,7 +88,7 @@ const ContactForm = () => {
             rows="5"
             value={formData.message}
             onChange={handleChange}
-            placeholder="Jeg fant mobilen din i dass."
+            placeholder="Jeg fant mobilen din på do."
             required
           ></textarea>
         </div>
