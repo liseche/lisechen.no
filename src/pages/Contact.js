@@ -60,7 +60,7 @@ const ContactForm = () => {
             className="form-control"
             value={formData.from_name}
             onChange={handleChange}
-            placeholder="Odd Even Fossan"
+            placeholder="Odd Even"
             required
           />
         </div>
@@ -74,7 +74,7 @@ const ContactForm = () => {
             className="form-control"
             value={formData.reply_to}
             onChange={handleChange}
-            placeholder="oef@gmail.com"
+            placeholder="oeuf@gmail.com"
             required
           />
         </div>

@@ -8,7 +8,7 @@ const Layout = () => {
     <div data-bs-theme="dark">
       <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container d-flex justify-content-center">
-          <a class="navbar-brand" href="#">Lise Chen</a>
+          <a class="navbar-brand">Lise Chen</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
               <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link active" aria-current="page" href="#"><Link to="/">Home</Link></a>
